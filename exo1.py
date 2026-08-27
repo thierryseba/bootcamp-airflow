@@ -1,4 +1,4 @@
-from airflow import dag
+from airflow import DAG
 from datetime import datetime
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator

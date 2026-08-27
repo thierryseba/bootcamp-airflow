@@ -24,7 +24,7 @@ with DAG(
     start_date=datetime (2026, 8, 27),
     schedule=[mon_fichier],
     catchup=False,
-    tags=["dataset_consume"],
+    tags=["dataset_generate"],
 
 ) as dag_consommateur:
     tache2 = BashOperator(
